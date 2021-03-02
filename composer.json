@@ -27,7 +27,7 @@
         "symfony/phpunit-bridge": "^4.4 || ^5.1"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Kreadiv\\ContaoCopyrightBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
