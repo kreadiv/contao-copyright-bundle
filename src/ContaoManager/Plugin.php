@@ -3,14 +3,13 @@
 declare(strict_types=1);
 
 /*
- * This file is part of [package name].
  *
- * (c) John Doe
+ * (c) Kreadiv
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle\ContaoManager;
+namespace Kreadiv\ContaoCopyrightBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
