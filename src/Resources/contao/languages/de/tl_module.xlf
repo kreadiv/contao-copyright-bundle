@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+    <file>
+        <body>
+            <trans-unit id="tl_module.copyright.0">
+                <source>Copyright</source>
+                <target>Copyright</target>
+            </trans-unit>
+            <trans-unit id="FMD.copyright.0">
+                <source>Kreadiv | Copyright</source>
+                <target>Kreadiv | Copyright</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
