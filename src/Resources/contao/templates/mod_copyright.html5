@@ -1,7 +1,7 @@
-<?php $this->extend('block_searchable'); ?>
+<?php $this->extend('block_unsearchable'); ?>
 
 <?php $this->block('content'); ?>
 
-<span class="copyright-info"><?= $this->copyright; ?></span>
+<span class="copyright-info"><?= $this->copyright ?></span>
 
 <?php $this->endblock(); ?>

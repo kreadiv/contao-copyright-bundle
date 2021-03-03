@@ -23,7 +23,6 @@ class CopyrightModule extends \Module
             return $objTemplate->parse();
         }
 
-        return parent::generate();
     }
 
 }
