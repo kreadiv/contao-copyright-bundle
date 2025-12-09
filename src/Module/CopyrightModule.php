@@ -17,12 +17,10 @@ class CopyrightModule extends \Contao\Module
      */
     public function compile()
     {
-        if (TL_MODE == 'BE') {
-            $objTemplate = new \BackendTemplate('be_wildcard');
+        if (\TL_MODE == 'BE') {
+            $objTemplate = new \Contao\BackendTemplate('be_wildcard');
             $objTemplate->wildcard = '### ' . $GLOBALS['TL_LANG']['FMD']['copyright'][0] . ' ###';
             return $objTemplate->parse();
         }
-
     }
-
 }
