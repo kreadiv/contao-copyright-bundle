@@ -2,25 +2,24 @@
 
 namespace Kreadiv\ContaoCopyrightBundle\Module;
 
+/**
+ * Legacy Contao 4 Module Class
+ *
+ * This class is deprecated in Contao 5.
+ * Use CopyrightController instead: src/Controller/FrontendModule/CopyrightController.php
+ *
+ * @deprecated Use CopyrightController instead
+ */
 class CopyrightModule extends \Contao\Module
 {
-
-    /**
-     * @var string
-     */
     protected $strTemplate = 'mod_copyright';
 
     /**
-     * Displays a wildcard in the back end.
-     *
-     * @return string
+     * Empty compile method for Contao 5 compatibility
+     * The actual logic is now in CopyrightController
      */
     public function compile()
     {
-        if (\TL_MODE == 'BE') {
-            $objTemplate = new \Contao\BackendTemplate('be_wildcard');
-            $objTemplate->wildcard = '### ' . $GLOBALS['TL_LANG']['FMD']['copyright'][0] . ' ###';
-            return $objTemplate->parse();
-        }
+        // Logic moved to Controller in Contao 5
     }
 }

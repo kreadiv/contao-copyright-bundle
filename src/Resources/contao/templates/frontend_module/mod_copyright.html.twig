@@ -1,0 +1,5 @@
+{% extends "@Contao/frontend_module/_base.html.twig" %}
+
+{% block content %}
+  <span class="copyright-info">{{ copyright|insert_tag_flag('remove_insert_tags', false)|raw }}</span>
+{% endblock %}
