@@ -2,7 +2,7 @@
 
 namespace Kreadiv\ContaoCopyrightBundle\Module;
 
-class CopyrightModule extends \Module
+class CopyrightModule extends \Contao\Module
 {
 
     /**
